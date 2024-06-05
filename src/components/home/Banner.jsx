@@ -5,6 +5,8 @@ const Banner = () => {
   return (
     <section className="bg-[url(/bg.png)] pt-64 pb-60 relative z-10 after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full after:bg-[rgba(106,98,197,0.7)]">
       <div className="container">
+        <img src="/Vector.png" alt="" />
+        <img src="/Vector.png" alt="" className="mt-[10px]"/>
         <h1 className="w-[1080px] m-auto text-[84px] font-bold text-white text-center capitalize">
           YOU’RE UNIQUE.YOUR WEBSITE SHOULD BE TOO
         </h1>
@@ -17,6 +19,7 @@ const Banner = () => {
           <Button title="get free quoto" className="text-white" />
           <Button title="Learn More" className="text-white" />
         </div>
+        <img src="/banner-image.png" alt="" />
       </div>
     </section>
   );
