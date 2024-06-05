@@ -1,7 +1,7 @@
 import Button from "./Button";
 import ChooseItems from "./ChooseItems";
 
-const CooseUs = () => {
+const ChooseUs = () => {
   return (
     <section className="py-24 relative">
       <div className="absolute top-0 left-0 -z-10">
@@ -36,4 +36,4 @@ const CooseUs = () => {
   );
 };
 
-export default CooseUs;
+export default ChooseUs;
